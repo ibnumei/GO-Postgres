@@ -1,7 +1,7 @@
 ## Requirement
 
-1. You have PostgreSQL in your computer or you can use the cloud instead.
-2. For this project, we will need some packages. The dependencies that you need:
+1. PostgreSQL
+2. The dependencies:
 
 ```go
   go get github.com/lib/pq
@@ -13,7 +13,7 @@
 
 ## How to use
 
-1. You can clone this project.
+1. clone this project.
 2. You have to make database `recordings` in the postgres. Run this to terminal:
    ```zsh
     psql -U postgres
